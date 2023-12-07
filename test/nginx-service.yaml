@@ -4,6 +4,7 @@ metadata:
   name: nginx-service
   labels:
     app: nginx-service
+  namespace: default
 spec:
   selector:
     app: nginx
