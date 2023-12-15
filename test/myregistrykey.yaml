@@ -3,7 +3,6 @@ data:
   .dockerconfigjson: eyJhdXRocyI6eyJodHRwOi8vMTkyLjE2OC4xLjIwOjUwMDAiOnsidXNlcm5hbWUiOiJ0ZXN0dXNlciIsInBhc3N3b3JkIjoiMTExIiwiZW1haWwiOiJ5akBxYWFwLmlvIyIsImF1dGgiOiJkR1Z6ZEhWelpYSTZNVEV4In19fQ==
 kind: Secret
 metadata:
-  creationTimestamp: "2023-12-15T16:19:17Z"
   name: myregistrykey
   namespace: default
   resourceVersion: "507213"
