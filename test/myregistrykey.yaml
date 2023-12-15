@@ -5,5 +5,4 @@ kind: Secret
 metadata:
   name: myregistrykey
   namespace: default
-  resourceVersion: "507213"
 type: kubernetes.io/dockerconfigjson
