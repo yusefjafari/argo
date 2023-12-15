@@ -7,5 +7,4 @@ metadata:
   name: myregistrykey
   namespace: default
   resourceVersion: "507213"
-  uid: 45c53803-4271-45d6-af84-4aec627e98f5
 type: kubernetes.io/dockerconfigjson
