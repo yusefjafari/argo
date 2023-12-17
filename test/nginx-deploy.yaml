@@ -26,5 +26,5 @@ spec:
         tty: true
         imagePullPolicy: Always
       imagePullSecrets:
-      - name: myregistrykey
+      - name: myregistrykey1
 
