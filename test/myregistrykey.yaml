@@ -3,9 +3,6 @@ data:
   .dockerconfigjson: eyJhdXRocyI6eyJodHRwczovL215cHJpdmF0ZXJlZy5jb206NTAwMCI6eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwicGFzc3dvcmQiOiIxMTEiLCJlbWFpbCI6InlqQHFhYXAuaW8iLCJhdXRoIjoiZEdWemRIVnpaWEk2TVRFeCJ9fX0=
 kind: Secret
 metadata:
-  creationTimestamp: "2023-12-17T16:19:26Z"
   name: myregistrykey
   namespace: default
-  resourceVersion: "582873"
-  uid: a9fedba2-ca0d-48a4-bee6-0a2c50dcf161
 type: kubernetes.io/dockerconfigjson
