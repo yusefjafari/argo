@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: myprivatereg.com:500/test:104
+        image: myprivatereg.com:5001/test:104
 #        image: npm.qaap.io:5000/busy:1
         imagePullPolicy: Always
         ports:
@@ -25,12 +25,7 @@ spec:
         stdin: true
         tty: true
         imagePullPolicy: Always
-        minReadySeconds: 5
-        strategy:
-          type: RollingUpdate
-          rollingUpdate:
-            maxSurge: 1
-            maxUnavailable: 1
+
       imagePullSecrets:
       - name: myregistrykey
 
