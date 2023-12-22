@@ -25,6 +25,7 @@ spec:
         stdin: true
         tty: true
         imagePullPolicy: Always
+        minReadySeconds: 5
         strategy:
           type: RollingUpdate
           rollingUpdate:
