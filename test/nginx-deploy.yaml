@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: myprivatereg.com:5000/test:106
+        image: myprivatereg.com:5000/test:108
 #        image: npm.qaap.io:5000/busy:1
         imagePullPolicy: Always
         ports:
